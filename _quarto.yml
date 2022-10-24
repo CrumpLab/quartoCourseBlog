@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "quartoCourseBlog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/CrumpLab/quartoCourseBlog
+      - icon: twitter
+        href: https://twitter.com/MattCrumpLab
+format:
+  html:
+    theme: minty
+    css: styles.css
+
+editor: visual
+

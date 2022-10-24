@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/my_first_post/index.html",
+    "href": "posts/my_first_post/index.html",
+    "title": "My First post",
+    "section": "",
+    "text": "This is an example first post. Whatever you write here will appear inside your post.\nIt is possible to write lists:\nAnd make headers"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#this-is-a-second-level-heading",
+    "href": "posts/my_first_post/index.html#this-is-a-second-level-heading",
+    "title": "My First post",
+    "section": "This is a second level heading",
+    "text": "This is a second level heading\nYou can include images, and many other kinds of content.\nIf you are using the visual editor in Rstudio you can drag images onto the editor to insert them into the document. Otherwise, you need to place the image inside of the folder for this post, and then you can insert it to your post directly, like this:\n\nThe first image in a blog post will also be used on the listings page."
+  },
+  {
+    "objectID": "posts/Example_assignment/index.html",
+    "href": "posts/Example_assignment/index.html",
+    "title": "Example assignment",
+    "section": "",
+    "text": "This assignment engages you in the process of introspection. Your task is to use introspection to evaluate and describe your own mental imagery abilities. Attempt to answer the following kinds of questions. What is your mental imagery like? Do you have mental imagery for different kinds of senses? Is your mental imagery vivid and life-like or very different from normal perception? How would you describe your mental imagery?\nYou should write a minimum of 250 words, but feel free to write more. Submit your document on blackboard by the due date."
+  },
+  {
+    "objectID": "posts/Example_assignment/index.html#my-mental-imagery",
+    "href": "posts/Example_assignment/index.html#my-mental-imagery",
+    "title": "Example assignment",
+    "section": "My mental imagery",
+    "text": "My mental imagery\nMy mental imagery is like…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quartoCourseBlog",
+    "section": "",
+    "text": "My First post\n\n\n\n\n\n\n\ngoals\n\n\ngeneral\n\n\n\n\n\n\n\n\n\n\n\nOct 21, 2022\n\n\nMatt Crump\n\n\n\n\n\n\n  \n\n\n\n\nExample assignment\n\n\n\n\n\n\n\ngoals\n\n\ngeneral\n\n\n\n\n\n\n\n\n\n\n\nOct 21, 2022\n\n\nMatt Crump\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "quartoCourseBlog",
+    "section": "",
+    "text": "This is a template for using quarto to create a course blog. A course blog can be used in many ways to engage with course content. For example, you could use the blog to post assignments, or to dive more deeply into course material that interests you. By the end of the course, your blog can serve as a portfolio of ways that you engaged in the material. By learning how to use quarto for your blog, you will also be learning new skills for creating and sharing reproducible documents that could be useful to you in the future.\nThe purpose of this page is to provide tips and pointers about blogging with quarto. Quarto is simple enough for creating a basic course blog. However, it is also very deep and can be used to create all sorts of documents, from website, to slide decks, and books.\n\n\nMany questions about quarto can be answered from the quarto documentation located at: https://quarto.org.\nIf you are looking for something specific and don’t know where to find it on the website, use the search tool in the top right corner.\n\n\n\n\nIn order to use this template you will need to install some free open-source software on your computer.\n\nSign up for a free account at https://github.com. This a website for sharing open-source software, but it can also be used to serve your blog as a website for free.\nDownload Github Desktop and install it on your machine. This should install the version control software git on your system, and you can use Github Desktop to easily push your blog from your local computer so that it can be viewed on Github.com.\nDownload R and install it on your machine. R is a programming language capable of many things, and it needs to be on your machine before you can run R Studio.\nDownload R Studio Desktop and install it on your machine. R Studio is called an “IDE” or integrated development environment, that you can use to write your blog with quarto.\n\n\n\n\nOnce you have the software installed, the next step is to create a quarto blog project in R studio. The collection of files in this template is a pre-made quarto blog project that you can modify for your own purposes. You can also make one yourself in Rstudio.\nAssuming you have downloaded this template, and you have installed the above software, then you need to open quartoCourseBlog.Rproj.\n\n\n\n\nTo find out if everything is working, try rendering the blog. Go to the “Build” Tab and press “Render Website”.\n\nAfter the rendering is complete, you should be able to view your blog. It might show up in the viewer pane like this:\n\nAnd if you press the ‘window-with-an-arrow’ button, you can view the website in your default browser. Quarto websites automatically adjust for the size of the window, so it may appear differently in the viewer pane versus the browser.\n\n\n\nAll of the blog posts are located in the posts folder.\n\nTo make a new post, copy an existing post and then modify it. For example, my posts folder currently contains one post, and it is inside the my_first_post folder.\n\nI can copy the folder and make a new one with the same contents from the Rstudio gear-box menu:\n\nI made a folder for a second post called Example_assignment.\n\nThese are the two files inside the folder. The .qmd file is a plain text file where you will write the blog post. This folder can also be used to store other assets you might put in the post, such as pictures.\n\n\n\nTo write a new post, open the .qmd file, edit the text, and then re-render the website. This is what the text in the .qmd file looked like when I copied it.\n\nThe text at the top between the “---” is called YAML, and provides meta-data for your document. This is where you can change the title, date, name, and add keywords if you want.\nThe rest of the document is for the main body of the post. For example, I changed the text to read:\n\n\n\n\n\nRender the website from the build tab again to see your new post.\n\n\n\nTo share your blog online you will have to publish it on a server that can be accessed by other people on the internet. There are multiple ways to do this step, and I recommend using Github pages. You can view more in-depth instructions from quarto here https://quarto.org/docs/publishing/github-pages.html.\nHere are the steps:\n\nOpen Github Desktop\nGo to preferences and sign in to your Github.com account\n“Add” your blog project folder to Github Desktop\nThere should be an option for a commit message, write a note in there like “first commit”.\nPublish to github.com and uncheck private repository so that other people will be able to see your repository.\nYou should now be able to see your new repository in your github.com profile, which means you should be able to see a copy of your blog files in the repository.\nActivate Github pages for your repository (under repository settings), and serve the page from the “docs” folder.\nAccess the blog from the url generated by the github pages settings page.\n\n\n\n\nWhenever you make changes to your blog project that you want to share online follow these steps:\n\nMake changes to your blog, like writing a new post, or editing an old one.\nRender the website in R-studio. What you see here should be what you will see later on Github.com\nOpen Github Desktop and Commit your changes, by writing brief commit title, and pressing commit.\nThen, use Github Desktop to Push your changes to github.com.\nWait half a minute or so, and you should see your new content appear on the website.\n\n\n\n\nSee this growing list of quarto resources for much, much more:\nhttps://github.com/mcanouil/awesome-quarto"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The content on this page is from about.qmd. Edit that file to change how this page looks.\n“About” pages are special quarto template pages, with multiple options: https://quarto.org/docs/websites/website-about.html.\nTry changing the template type from jolla to one of the other options for a different look and feel."
+  }
+]

@@ -1,0 +1,23 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+The content on this page is from `about.qmd`. Edit that file to change how this page looks.
+
+"About" pages are special quarto template pages, with multiple options: <https://quarto.org/docs/websites/website-about.html>.
+
+Try changing the template type from `jolla` to one of the other options for a different look and feel.
+

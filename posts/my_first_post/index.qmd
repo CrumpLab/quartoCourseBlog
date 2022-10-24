@@ -1,0 +1,26 @@
+---
+title: "My First post"
+author: "Matt Crump"
+date: "2022-10-21"
+categories: [goals,general]
+---
+
+This is an example first post. Whatever you write here will appear inside your post.
+
+It is possible to write lists:
+
+1.  One
+2.  Two
+3.  Three
+
+And make headers
+
+## This is a second level heading
+
+You can include images, and many other kinds of content.
+
+If you are using the visual editor in Rstudio you can drag images onto the editor to insert them into the document. Otherwise, you need to place the image inside of the folder for this post, and then you can insert it to your post directly, like this:
+
+![](thumbnail.jpg)
+
+The first image in a blog post will also be used on the listings page.
