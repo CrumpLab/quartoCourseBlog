@@ -112,36 +112,42 @@ Whenever you make changes to your blog project that you want to share online fol
 4.  Then, use Github Desktop to **Push your changes** to github.com.
 5.  Wait half a minute or so, and you should see your new content appear on the website.
 
-## Rstudio cloud
+## Posit cloud (formerly Rstudio cloud)
 
 I am planning to add a video overview of these steps soon. In the meantime, these instructions may be enough to get started with R studio cloud and github.com.
 
-1. Sign up for a free account with Rstudio cloud here <https://rstudio.cloud>
-2. Sign up for a free <https://github.com> account.
-3. Log in to Github, and search for this repository <https://github.com/CrumpLab/quartoCourseBlog>.
-  - Click the green "Use this template" Button
-  - This will make a copy of the template in your github account, it will show up as one of your repositories
-  - Give your new repository a name
+1.  Sign up for a free account with posit cloud here <https://posit.cloud/plans/free>
+2.  Sign up for a free <https://github.com> account.
+3.  Log in to Github, and search for this repository <https://github.com/CrumpLab/quartoCourseBlog>.
+
+-   Click the green "Use this template" Button
+-   This will make a copy of the template in your github account, it will show up as one of your repositories
+-   Give your new repository a name
+
 4.  Activate Github pages for your repository (under repository settings), and serve the page from the "docs" folder. You should now be able to view the blog from the url given by github pages.
-5. Log into Rstudio Cloud
-6. Create a New Project, choose "New Project from Git Repository"
-  - enter the URL to your github repository
-7. Load the project, and edit/modify the files (see above for examples of creating new posts etc.)
-8. To send your changed files back to github.com you need to do a few steps
-  - From the Git tab: stage your changes, commit your changes, and push your changes using the green up arrow.
-  - You will also need to authenticate your git credentials, and allow Rstudio cloud to update your github repository
-  - In the terminal run these two lines, but replace with your name and email
-  
-```
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-```
+5.  Log into Posit Cloud
+6.  Create a New Project, choose "New Project from Git Repository"
 
-  - When you "push" your changes back to Github using the green up arrow, you will be asked to enter a username and password. You can enter the username for your Github.com account, **but your password won't work**. You need to set up a personal access token.
-  - Go to your github.com profile > settings page. Scroll down, click on "<> Developer Settings", on the left
-  - Click on personal access tokens, generate a new token, give it repo access. Save the text somewhere and use it as your github password when pushing from RStudio.
+-   enter the URL to the github repository you just made
 
-9. At this point you should be able to work on your blog in Rstudio Cloud, and push your changes to have them updated on github.com, which serves your blog online.
+7.  Load the project, and edit/modify the files (see above for examples of creating new posts etc.)
+8.  To send your changed files back to github.com you need to do a few steps
+
+-   From the Git tab: stage your changes, commit your changes, and push your changes using the green up arrow.
+-   You will also need to authenticate your git credentials, and allow Rstudio cloud to update your github repository
+-   In the terminal run these two lines, but replace with your name and email
+
+```{=html}
+<!-- -->
+```
+    git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+
+-   When you "push" your changes back to Github using the green up arrow, you will be asked to enter a username and password. You can enter the username for your Github.com account, **but your password won't work**. You need to set up a personal access token.
+-   Go to your github.com profile \> settings page. Scroll down, click on "\<\> Developer Settings", on the left
+-   Click on personal access tokens, generate a new token, give it repo access. Save the text somewhere and use it as your github password when pushing from RStudio.
+
+9.  At this point you should be able to work on your blog in Rstudio Cloud, and push your changes to have them updated on github.com, which serves your blog online.
 
 ## More quarto
 
